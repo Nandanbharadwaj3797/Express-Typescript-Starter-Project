@@ -16,5 +16,5 @@ app.use('/api/v2', v2Router);
 
 app.listen(serverConfig.PORT, () => {
     console.log(`Server is running on http://localhost:${serverConfig.PORT}`);
-    console.log(`Press Ctrl+C to stop the server`);
+    console.log(`Press Ctrl+C to stop the server.`);
 });
